@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,10 @@
 <?php
 /*
     MY NOTES:
-    - An array stores multiple values in one variable.
-    - Indexed arrays normally start from index 0.
+    - array stores multiple values in one variable.
+    - Indexarrays normally start from index 0.
     - We can access an item by using its index.
-    - count() tells us how many items are inside an array.
+    - c() tells us how many items are inside an array.
     - We can add a new value using [].
 */
 
