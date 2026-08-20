@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#6 - Numbers</title>
+</head>
+<body>
+
+<h1>#6 - Numbers</h1>
+
+<?php
+/*
+    MY NOTES:
+    - PHP can work with integers and decimal numbers (floats).
+    - Arithmetic operators include +, -, *, / and %.
+    - The % operator returns the remainder.
+    - PHP follows normal mathematical operator precedence.
+*/
+
+$num1 = 20;
+$num2 = 6;
+
+echo "Number 1: " . $num1;
+echo "<br>";
+echo "Number 2: " . $num2;
+echo "<br><br>";
+
+echo "Addition: " . ($num1 + $num2);
+echo "<br>";
+
+echo "Subtraction: " . ($num1 - $num2);
+echo "<br>";
+
+echo "Multiplication: " . ($num1 * $num2);
+echo "<br>";
+
+echo "Division: " . ($num1 / $num2);
+echo "<br>";
+
+echo "Remainder: " . ($num1 % $num2);
+
+echo "<hr>";
+
+$score = 70;
+
+// Add 5 to the current score.
+$score += 5;
+
+echo "Updated Score: " . $score;
+
+?>
+
+<br><br>
+<a href="index.php">Back to Home</a>
+
+</body>
+</html>

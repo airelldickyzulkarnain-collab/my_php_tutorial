@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#7 - Arrays</title>
+</head>
+<body>
+
+<h1>#7 - Arrays</h1>
+
+<?php
+/*
+    MY NOTES:
+    - An array stores multiple values in one variable.
+    - Indexed arrays normally start from index 0.
+    - We can access an item by using its index.
+    - count() tells us how many items are inside an array.
+    - We can add a new value using [].
+*/
+
+// Indexed array
+$subjects = ["PHP", "Multimedia", "Web Design", "Animation"];
+
+echo "First subject: " . $subjects[0];
+echo "<br>";
+echo "Third subject: " . $subjects[2];
+echo "<br>";
+
+echo "Total subjects: " . count($subjects);
+
+echo "<hr>";
+
+// Add a new item
+$subjects[] = "Photography";
+
+echo "<pre>";
+print_r($subjects);
+echo "</pre>";
+
+// Associative array uses custom keys
+$student = [
+    "name" => "Airell",
+    "course" => "Creative Multimedia",
+    "semester" => 4
+];
+
+echo "Student Name: " . $student["name"];
+echo "<br>";
+echo "Course: " . $student["course"];
+
+?>
+
+<br><br>
+<a href="index.php">Back to Home</a>
+
+</body>
+</html>
