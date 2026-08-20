@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     - Loops repeat code without writing the same statement many times.
     - A for loop is useful when we know how many times to repeat.
     - A foreach loop is useful when going through an array.
-    - A while loop repeats while its condition is true.
+    - A while loop repeats while its condition.
 */
 
 echo "<h2>For Loop</h2>";
