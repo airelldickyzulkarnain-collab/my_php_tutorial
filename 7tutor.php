@@ -26,7 +26,7 @@ $subjects = ["PHP", "Multimedia", "Web Design", "Animation"];
 echo "Third subject: " . $subjects[2];
    echo "<br>";
 
-e    cho "Total subjects: " . count($subjects);
+echo "Total subjects: " . count($subjects);
 
    echo "<hr>";
 
