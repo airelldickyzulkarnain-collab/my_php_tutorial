@@ -11,9 +11,8 @@
 <?php
 /*
     MY NOTES:
-    - PHP can work with integers and decimal numbers (floats).
+    - php can work with integers and decimal numbers (floats).
     - Arithmetic operators include +, -, *, / and %.
-    - The % operator returns the remainder.
     - PHP follows normal mathematical operator precedence.
 */
 
