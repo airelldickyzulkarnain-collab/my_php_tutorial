@@ -1,0 +1,53 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#8 - Multidimensional Arrays</title>
+</head>
+<body>
+
+<h1>#8 - Multidimensional Arrays</h1>
+
+<?php
+/*
+    MY NOTES:
+     A multidimensional array is an array that contains other arrays.
+    It is useful for storing grouped or structured information.
+    To access the data, we use more than one index/key.
+*/
+
+$students = [
+    [
+        "name" => "Airell",
+        "course" => "Creative Multimedia",
+        "score" => 85
+    ],
+    [
+        "name" => "Amani",
+        "course" => "Graphic Design",
+        "score" => 78
+    ],
+    [
+        "name" => "Zahida",
+        "course" => "Animation",
+        "score" => 92
+    ]
+];
+
+echo "First student: " . $students[0]["name"];
+echo "<br>";
+echo "First student's score: " . $students[0]["score"];
+
+echo "<hr>";
+
+echo "<pre>";
+print_r($students);
+echo "</pre>";
+
+?>
+
+<br><br>
+<a href="index.php">Back to Home</a>
+
+</body>
+</html>
