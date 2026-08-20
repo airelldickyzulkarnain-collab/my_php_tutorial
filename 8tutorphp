@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 <?php
 /*
     MY NOTES:
-    - A multidimensional array is an array that contains other arrays.
+    - multidimensional array is an array that contains other arrays.
     - It is useful for storing grouped or structured information.
     - To access the data, we use more than one index/key.
 */
